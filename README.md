@@ -6,13 +6,13 @@ This project consists of two parts:
 ## Task 1: Set up Project
 You will need to follow the Lambda School Git Workflow to add a file to this project follow the steps below:
 
-- [ ] Create your own version of this repo - Fork
-- [ ] Clone this repo
-- [ ] Create a branch `git checkout -b 'firstName-lastName'`
-  - [ ] Add a file to the project called `yourFirstName-yourLastName`.txt. This should contain the link to your completed codepen from part 2 as well as the review questions/answers
-  - [ ] Run your usual git commands for adding/committing and pushing **Be sure to push to your branch!**
-- [ ] Create a Pull-Request to submit your work
-  - [ ] Use your own student fork as the base (compare across forks, base-fork -> main).
+- [ x] Create your own version of this repo - Fork
+- [x ] Clone this repo
+- [ x] Create a branch `git checkout -b 'firstName-lastName'`
+  - [x ] Add a file to the project called `yourFirstName-yourLastName`.txt. This should contain the link to your completed codepen from part 2 as well as the review questions/answers
+  - [ x] Run your usual git commands for adding/committing and pushing **Be sure to push to your branch!**
+- [x ] Create a Pull-Request to submit your work
+  - [ x] Use your own student fork as the base (compare across forks, base-fork -> main).
 
 
 ## Task 2: MVP
@@ -26,10 +26,15 @@ You will need to follow the Lambda School Git Workflow to add a file to this pro
 ## Task 3: Stretch
 Stretch Review questions: 
     1. What is the difference between an inline element and a block element?
+    An inline element doesn't start a new line. 
     2. What happens when an element is positioned absolutely? 
+     its positioned relative to its first element.
     3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
-    4. Name 3 elements that are display block by default, 2 elements that are display inline by default, and 1 element that is display inline-block by default
-    5. In your own words, explain the box model. What is the fix for the box model? 
+    inline-block element
+    4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+    <div>, <h1>, <section>
+    5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them? 
+    It is a box that wraps all elements. 
 Stretch Git Tasks
 - [ ] While the processes learned here will set you up to be successful in most situations, they are just the tip of the iceberg in learning Git. Independently research the following topics to learn more about Git.
   - [ ] Research and understand what a `merge conflict` is and how to resolve it.
